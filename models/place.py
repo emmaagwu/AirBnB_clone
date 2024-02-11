@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """ Defines the "Place" class """
-from models.base_model import Basemodel
+from models.base_model import BaseModel
 
 
-class Place(Basemodel):
+class Place(BaseModel):
     """Represents a PLace
     Attributes:
         city_id(str) - city_id of the place
@@ -24,9 +24,9 @@ class Place(Basemodel):
     name = ""
     description = ""
     number_rooms = 0
-    number_bathroom = 0
+    number_bathrooms = 0
     max_guest = 0
     price_by_night = 0
     latitude = 0.0
     longitude = 0.0
-    amenity_id = []
+    amenity_ids = []

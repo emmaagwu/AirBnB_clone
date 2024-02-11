@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """ Defines the "state" class """
-from model.base_model import Basemodel
+from models.base_model import BaseModel
 
 
-class State(Basemodel):
+class State(BaseModel):
     """ Represents a State
     Attributes:
         name(str) - name of the state
     """
 
-    state = ""
+    name = ""
