@@ -1,4 +1,5 @@
 .places {
+<<<<<<< HEAD
 	    font-size: 30px;
 	        display: flex;
 		    flex-wrap: wrap;
@@ -22,3 +23,30 @@
 						        font-size: 30px;
 							    text-align: center;
 						    }
+=======
+    padding: 10px;
+    position: relative;
+}
+
+.places h1 {
+    font-size: 30px;
+}
+article {
+    display: inline-block;
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ff5a5f;
+    border-radius: 4px;    
+}
+article:nth-child(4) {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-60%);
+}
+article h2 {
+    font-size: 30px;
+    text-align: center;
+}
+>>>>>>> ddbb4f41bd71941f05c8cbddaa9c04d91a1cd569

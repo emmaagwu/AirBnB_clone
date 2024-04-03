@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body {
 	    height: 100%;
     }
@@ -16,3 +17,28 @@ html, body {
 						    width: 100%;
 						        flex: 1 0 auto;
 						}
+=======
+
+/* Body style */
+body {
+    color: #484848;
+    font: 14px Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  /* Block horizontal scrolling */
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  /* Container style */
+  .container {
+    margin: 30px auto;
+    max-width: 1000px;
+  }
+  
+  /* Strong style */
+  strong {
+    font-weight: bold;
+  }
+>>>>>>> ddbb4f41bd71941f05c8cbddaa9c04d91a1cd569

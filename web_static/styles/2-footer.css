@@ -1,4 +1,5 @@
 footer {
+<<<<<<< HEAD
 
 	    background-color: #00FF00; 
 	        height: 60px; 
@@ -10,3 +11,18 @@ footer {
 				        align-items: center;
 					    bottom: 0;
 				    }
+=======
+    height: 60px;
+    background-color: #00FF00;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+>>>>>>> ddbb4f41bd71941f05c8cbddaa9c04d91a1cd569
